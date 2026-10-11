@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
-{
+{   
     int a;
     scanf("%d",&a);
-    if (a%2==0)
+    int first_digit =a/1000;
+    if (first_digit % 2==0)
     {
         printf("EVEN");
     }
@@ -11,6 +12,5 @@ int main()
     {
         printf("ODD");
     }
-    
     return 0;
 };
