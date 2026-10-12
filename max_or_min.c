@@ -6,19 +6,7 @@ int main()
     int c;
 
     scanf("%d %d %d", &a,&b,&c);
-    if (a>=b && a>=c)
-    {
-        printf("%d ",a);
-    }
-    else if (b>=a && b>=c)
-    {
-        printf("%d ",b);
-    }
-    else if (c>=a && c>=b)
-    {
-        printf("%d ",c);
-    }
-
+    
     if (a<=b && a<=c)
     {
         printf("%d ",a);
@@ -32,6 +20,18 @@ int main()
         printf("%d ",c);
     }
     
+    if (a>=b && a>=c)
+    {
+        printf("%d ",a);
+    }
+    else if (b>=a && b>=c)
+    {
+        printf("%d ",b);
+    }
+    else if (c>=a && c>=b)
+    {
+        printf("%d ",c);
+    }
     
     
     
