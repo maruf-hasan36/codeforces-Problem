@@ -3,37 +3,14 @@ int main()
 {
     int a;
     int b;
-    int c;
 
-    scanf("%d %d %d", &a,&b,&c);
-    if (a>=b && a>=c)
-    {
-        printf("%d ",a);
-    }
-    else if (b>=a && b>=c)
-    {
-        printf("%d ",b);
-    }
-    else if (c>=a && c>=b)
-    {
-        printf("%d ",c);
-    }
+    scanf("%d %d",&a,&b);
 
-    if (a<=b && a<=c)
-    {
-        printf("%d ",a);
-    }
-    else if (b<=a && b<=c)
-    {
-        printf("%d ",b);
-    }
-    if (c<=a && c<=b)
-    {
-        printf("%d ",c);
-    }
-    
-    
-    
-    
+   long long int sum = a + b;
+    long long int mul = a*b;
+   long long int sub = a - b;
+    printf("%d + %d = %d\n",a,b,sum);
+    printf("%d * %d = %d\n",a,b,mul);
+    printf("%d - %d = %d\n",a,b,sub);
     return 0;
 };

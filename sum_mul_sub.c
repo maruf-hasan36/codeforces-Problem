@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    int b;
+   long long int a;
+   long long int b;
 
-    scanf("%d %d",&a,&b);
+    scanf("%lld %lld",&a,&b);
 
-    int sum = a + b;
-    int mul = a*b;
-    int sub = a - b;
-    printf("%d + %d = %d\n",a,b,sum);
-    printf("%d * %d = %d\n",a,b,mul);
-    printf("%d - %d = %d\n",a,b,sub);
+   long long int sum = a + b;
+    long long int mul = a*b;
+   long long int sub = a - b;
+    printf("%lld + %lld = %lld\n",a,b,sum);
+    printf("%lld * %lld = %lld\n",a,b,mul);
+    printf("%lld - %lld = %lld\n",a,b,sub);
     return 0;
 };
