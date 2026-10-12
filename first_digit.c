@@ -6,7 +6,7 @@ int main()
     scanf("%d",&a);
     if (a >=1000 && a<=9999)
     {
-        int first_digit = a / 1000;
+    int first_digit = a / 1000;
     if (first_digit % 2 == 0)
     {
         printf("EVEN");
