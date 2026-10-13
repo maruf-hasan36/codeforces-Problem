@@ -6,4 +6,6 @@ int main()
     long long int difference = (a*b)-(c*d);
     printf("Difference = %lld",difference);
     return 0;
+
+    
 };
